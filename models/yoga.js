@@ -30,6 +30,14 @@ var YogaSchema = new Schema({
 
     image:{
         type:String
+    },
+    youtubelink:{
+        type:String,
+        required:true
+    },
+    type:{
+        type:String,
+        required:true
     }
 
 });
